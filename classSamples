@@ -1,19 +1,11 @@
 // multiplication tables
-
-console.log("HELLO")
-// 3 ways to declare variables
-
-let x = 1; 
-let y = 1;
-
-for ( ; y<=10 ; y++ ){
-    for ( ; x<=10 ; x++ )   {
-        console.log("x is ", x);
-        console.log("y is ", y);
-        console.log(x*y);
+// Pedro's code:
+var a = 1;
+while(a <= 10){
+    console.log("-----------------------");
+    console.log("Multiplication of "+a);
+    for(i=1;i<=10;i++){
+        console.log(a+"x"+i+" = "+i*a);
     }
+    a++;
 }
-
-
-// let numbers = [1,2,3,4,5,6,7,8,9,10]; 
-// console.log( numbers[2] );
