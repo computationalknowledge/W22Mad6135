@@ -12,6 +12,7 @@ for ( ; y<=10 ; y++ ){
         console.log("y is ", y);
         console.log(x*y);
     }
+    x=1;
 }
 
 
