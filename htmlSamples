@@ -1,0 +1,19 @@
+<html>
+
+<head> 
+<title>Peter's Great Page</title>
+</head>
+
+<body>
+
+<h1>Peter's Great Page</h1>
+<table>
+    <tr><td><font color='red' ><h1>This is some text</h1></td></tr>
+    <tr><td></td></tr>  <td><img width='80' src='brown with headphones.png'/></td></tr>
+    <tr><td></td></tr>  <td><a href='https://linefriends.com/'>CLICK HERE</a></td></tr>
+    
+</table>
+
+</body>
+
+</html>
