@@ -1,0 +1,19 @@
+// practice this in the Debugger in Visual Studio Code
+// count from 100 down to 7
+// step down by 11 
+// sum up each number you step over by
+
+// avoid magic numbers; parameterize your code
+
+var  sum = 0;
+var startNumber = 100;
+var currentNumber = startNumber;
+const endNumber = 7;
+const stepNumber = 11;
+var loopCounter = 0;
+for (  ; currentNumber >= endNumber ; ){
+    currentNumber -= stepNumber;
+    console.log("currentNumber", currentNumber);
+    sum += currentNumber;
+    console.log("sum is ", sum);
+}
