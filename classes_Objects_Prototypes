@@ -1,0 +1,13 @@
+function Student(sName, sID, Term, sProgram) {
+  function SayHello(){console.log("HELLO ");}
+
+  this.sName = sName;
+  this.sID = sID;
+  this.Term = Term;
+  this.sProgram = sProgram;
+}
+
+const Steve = new Student('Steve', 'C123', 'Term1', 'MADT');
+
+console.log(Steve.sName);
+ 
