@@ -1,0 +1,17 @@
+const collection = {
+    items: [],
+    add(...items) {
+      this.items.push(...items);
+    },
+    get(index) {
+      return this.items[index];
+    }
+  };
+  collection.add('C', 'Java', 'PHP');
+  collection.add('Swift');
+  var a = collection.get(1) // => 'Java'
+  // console.log(a);
+  
+for (var counter = 0 ; counter< collection.items.length  ;  counter++){
+    console.log(collection.get(counter));
+}
