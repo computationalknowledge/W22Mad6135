@@ -1,0 +1,13 @@
+function a(z){
+    if (z < 5) {
+        process.exitCode = 9;
+        throw new Error("Error has occurred");}
+    if (z > 100){
+        process.exit(4);
+        process.exitCode = 4;
+        console.error("Exit code 4");} 
+}
+console.log(process.pid);
+var theanswer = a(process.argv[2]);
+// #trcdebugmsg
+console.log("I am at Point B");
